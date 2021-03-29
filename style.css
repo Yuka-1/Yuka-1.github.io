@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap'); /* подключили шрифт */
+
+body {
+    font-family: 'New Tegomin', serif;
+    background: url(https://images.unsplash.com/photo-1520052205864-92d242b3a76b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80) no-repeat center center / cover;
+    padding: 100px 0;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container {
+    width: 800px;
+    min-height: 800px;
+    border: 10px solid rgb(250, 236, 248);
+    margin: 0 auto;
+    background: rgb(250, 236, 248);
+}
+
+.header {
+    display: flex;
+    height: 150px;
+}
+
+.title-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    font-size: 30px;
+}
+
+.userpic {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    background: url(https://sun9-53.userapi.com/impf/WADqeEPi2u1WCpGBFNAsQGioq_AgCCNoDHz37Q/qt9EFK16eKI.jpg?size=1740x2160&quality=96&sign=de01235416028f62705e3d20fd9d4bff&type=album) no-repeat center center / cover;
+}
+
+.nav ul {
+    display: flex;
+    background: rgb(240, 190, 213);
+    margin: 10px 0;
+}
+
+.nav li a {
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    color: #404040;
+    font-weight: bold;
+    border-right: 1px solid #d1d1d1;
+    transition: all .5s ease;
+}
+
+.nav li a:hover {
+    background: rgb(252, 214, 231);
+}
+
+.content {
+    margin-left: 30px;
+    margin-right: 15px;
+}
